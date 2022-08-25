@@ -1,7 +1,7 @@
 h2 {
     position: relative;
     font-family: 'Montserrat', Arial, sans-serif;
-    font-size: calc(10px + 5vw);
+    font-size: 40px;
     font-weight: 700;
     color: rgb(10, 10, 10);
     letter-spacing: 0.02em;
@@ -10,7 +10,7 @@ h2 {
     user-select: none;
     white-space: nowrap;
     filter: blur(0.009em);
-    animation: shake 2.5s linear forwards;
+    animation: shake 2s linear forwards;
 }
 h2 span {
     position: fixed;
@@ -28,12 +28,12 @@ h2::after {
     left: 0;
 }
 h2::before {
-    animation: crack1 2.5s linear forwards;
+    animation: crack1 2s linear forwards;
     -webkit-clip-path: polygon(0% 0%, 10% 0%, 55% 100%, 0% 100%);
             clip-path: polygon(0% 0%, 10% 0%, 55% 100%, 0% 100%);
 }
 h2::after {
-    animation: crack2 2.5s linear forwards;
+    animation: crack2 2s linear forwards;
     -webkit-clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
             clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
 }
@@ -68,15 +68,49 @@ body {
 
 img {
     display: block;
-    width: 11%;
-    height: 11%;
     margin-left: auto;
     margin-right: auto;
-    background-color: blanchedalmond;
+    border:solid 20px;
+    border-bottom-color:rgb(20, 20, 20);
+    border-left-color:rgb(62, 62, 62);
+    border-right-color:rgb(62, 62, 62);
+    border-top-color:rgb(20, 20, 20);
+    max-height:13%;
+    max-width:13%;
 }
-p { 
+
+p {
+    position: relative;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(10, 10, 10);
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-shadow: 0 0 0.15em #0081f3;
+    user-select: none;
+    white-space: nowrap;
+    filter: blur(0.009em);
+    animation: shake 0.5s linear forwards;
+}
+a {
+    width: 200px;
+    height: 20px;
+    margin: 0 auto;
     display: block;
-    font-style:arial;
-    font-size: 25px;   
-    text-align: center
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+font-size: 25px;
+color: rgb(10, 10, 10);
+text-shadow: 0 0 0.15em #00aeff;
+
+}
+a:hover{
+color: #0d0f90;
+text-shadow: 0 0 0.15em #00cff9;
 }
