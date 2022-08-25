@@ -3,20 +3,24 @@ p{
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 40px;
     font-weight: 700;
-    color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
     letter-spacing: 0.02em;
     text-align: center;
-    text-shadow: 0 0 0.15em #00e3f3;
+    text-shadow: 0 0 0.15em #0096f3;
+
+}
+.container{
+    position:relative ;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-bottom:30px;
+    margin-left: 38%;
+    text-shadow: 0 0 0.15em #016ff6;
 
 }
 
 body {
-    position:sticky ;
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    color: rgb(19, 19, 19);
-    text-align: center;
-    text-shadow: 0 0 0.15em #00e3f3;
-background-image: url(/Project/Pictures/istockphoto-1325680818-170667a.jpg);
+background-image: url(/Project/Pictures/skillbg.jpg);
 }

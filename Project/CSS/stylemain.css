@@ -3,7 +3,7 @@ h2 {
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 40px;
     font-weight: 700;
-    color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
     letter-spacing: 0.02em;
     text-align: center;
     text-shadow: 0 0 0.15em #0081f3;
@@ -63,7 +63,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url("/Project/Pictures/mainbg.jpg");
-    background-color: #000;
+    background-color: rgb(252, 252, 252);
 }
 
 img {
@@ -71,10 +71,10 @@ img {
     margin-left: auto;
     margin-right: auto;
     border:solid 20px;
-    border-bottom-color:rgb(20, 20, 20);
-    border-left-color:rgb(62, 62, 62);
-    border-right-color:rgb(62, 62, 62);
-    border-top-color:rgb(20, 20, 20);
+    border-bottom-color:rgb(0, 0, 0);
+    border-left-color:rgb(1, 34, 44);
+    border-right-color:rgb(1, 34, 44);
+    border-top-color:rgb(0, 0, 0);
     max-height:13%;
     max-width:13%;
 }
@@ -84,14 +84,12 @@ p {
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 25px;
     font-weight: 700;
-    color: rgb(10, 10, 10);
+    color: rgb(253, 253, 253);
     letter-spacing: 0.02em;
     text-align: center;
     text-shadow: 0 0 0.15em #0081f3;
     user-select: none;
     white-space: nowrap;
-    filter: blur(0.009em);
-    animation: shake 0.5s linear forwards;
 }
 a {
     width: 200px;
@@ -106,11 +104,11 @@ a {
     -moz-box-align: center;
     box-align: center;
 font-size: 25px;
-color: rgb(10, 10, 10);
+color: rgb(254, 254, 254);
 text-shadow: 0 0 0.15em #00aeff;
 
 }
 a:hover{
-color: #0d0f90;
+color: #000000;
 text-shadow: 0 0 0.15em #00cff9;
 }
