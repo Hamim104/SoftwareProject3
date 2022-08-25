@@ -1,24 +1,38 @@
-b {
+h2{   
     position: relative;
     font-family: 'Montserrat', Arial, sans-serif;
     font-size: 40px;
     font-weight: 700;
-    color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
     letter-spacing: 0.02em;
     text-align: center;
-    text-shadow: 0 0 0.15em #0081f3;
+    text-shadow: 0 0 0.15em #00ccff;
+    user-select: none;
     white-space: nowrap;
     filter: blur(0.009em);
-    animation: shake 2s linear forwards;
+
 }
-p{    position: relative;
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 35px;
-    font-weight: 700;
-    color: rgb(10, 10, 10);
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-shadow: 0 0 0.15em #0081f3;
+body {
+background-color: #797777;
+background-image: url(/Project/Pictures/contact.jpeg);
+
 }
-body{ background-image: url(/Project/Pictures/contact.jpeg);
-}
+
+table {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 0.15em #1da3ad;
+    font-family: arial, sans-serif;
+    border-collapse:separate;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(9, 28, 45);
+  }
+td, th {
+    border: 1px solid #909cab;
+    text-align: left;
+    padding: 20px;
+  }
+tr:nth-child(even) {
+    background-color: #24506d;
+  }
