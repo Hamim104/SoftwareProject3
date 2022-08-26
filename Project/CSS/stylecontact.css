@@ -31,8 +31,18 @@ table {
 td, th {
     border: 1px solid #909cab;
     text-align: left;
+    color: aliceblue;
     padding: 20px;
   }
 tr:nth-child(even) {
     background-color: #24506d;
   }
+a{
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 0.15em #1da3ad;
+  font-family: arial, sans-serif;
+  
+}
+a:hover{
+color: #00ccff;
+}
