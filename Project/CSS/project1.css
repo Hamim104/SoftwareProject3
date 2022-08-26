@@ -1,0 +1,36 @@
+body{
+    background-image: url(/Project/Pictures/projectbg.jpg);
+
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    position: relative;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-shadow: 0 0 0.15em #f300e3;
+    user-select: none;
+    white-space: nowrap;
+    filter: blur(0.009em);
+    animation: shake 2s linear forwards;
+}
+img{
+height: 600px;
+padding: 20px;
+border:solid 20px;
+border-bottom-color:rgb(0, 0, 0);
+border-left-color:rgb(38, 1, 44);
+border-right-color:rgb(21, 1, 24);
+border-top-color:rgb(0, 0, 0);
+
+
+}
+

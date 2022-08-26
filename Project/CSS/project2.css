@@ -1,0 +1,46 @@
+body{
+    background-image: url(/Project/Pictures/projectbg.jpg);
+}
+h3{
+    position: relative;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-shadow: 0 0 0.15em #f300e3;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:solid 20px;
+    border-bottom-color:rgb(0, 0, 0);
+    border-left-color:rgb(44, 1, 43);
+    border-right-color:rgb(44, 1, 43);
+    border-top-color:rgb(0, 0, 0);
+    max-height:20%;
+    max-width:40%;
+}
+a {
+    width: 200px;
+    height: 10px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    font-size: 25px;
+    color: rgb(254, 254, 254);
+    text-shadow: 0 0 0.15em #f30be4;
+
+}
+a:hover{
+    color: #ff00e1;
+    text-shadow: 0 0 0.1rgb(255, 0, 251)cff9;
+}
